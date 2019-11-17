@@ -1,4 +1,4 @@
-Download the pretrained model for epoch 80, 90 and 100 and store the folders here.
+Download the pretrained_model for epoch 80, 90 and 100 and store the folders here.
 
 The files and folder should be in the following format:
 pretrained_model/model/epoch80/mean_logvar.t7
