@@ -1,4 +1,4 @@
-Download the Dataset named "nonbenchmark_ownCamPos" store the folder here.
+Download the Dataset and store the folder here.
 
 The files and folder should be in the following format:
 Data/nonbenchmark_ownCamPos/Datasets/test/Test-224x224-0.data
