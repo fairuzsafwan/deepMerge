@@ -109,6 +109,6 @@ run the command below:
 
 > sh train.sh folderName outputFolder experimentName
 ```
-run-loop_v3.bat C:\Users\safwan\Desktop\model_v1 C:\Users\safwan\Desktop\outputModel_v1 
+run-loop_v3.bat C:\Users\safwan\Desktop\model_v1 C:\Users\safwan\Desktop\outputModel_v1 experimentSample
 ```
 
