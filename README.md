@@ -98,16 +98,20 @@ sh train.sh sampleModel 0
 - [openCV](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.2/opencv-3.4.2-vc14_vc15.exe/download)
 
 **2. Register openCV path in environment variables**
+```
+C:\opencv\build\\x64\vc14\bin
+C:\opencv\build\\x64\vc15\bin
+```
 
 **3. How to run**
 
 run the command below:
 > cd to the "zip-IoU" folder
-- folderName = the input path of the folder where the estimated depth maps & silhouettes reside (eg. C:\Users\safwan\Desktop\model_v1)
-- outputFolder = the output path where the 3D models will be reconstructed (eg. C:\Users\safwan\Desktop\outputModel_v1)
+- inputPath = the input path of the folder where the estimated depth maps & silhouettes reside (eg. C:\Users\safwan\Desktop\model_v1)
+- outputPath = the output path where the 3D models will be reconstructed (eg. C:\Users\safwan\Desktop\outputModel_v1)
 - experimentName = the name of the experiment folder where the 3D models will be reconstructed (eg. experimentSample)
 
-> sh train.sh folderName outputFolder experimentName
+> run-loop_v3.bat inputPath outputPath experimentName
 ```
 run-loop_v3.bat C:\Users\safwan\Desktop\model_v1 C:\Users\safwan\Desktop\outputModel_v1 experimentSample
 ```
