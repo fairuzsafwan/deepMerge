@@ -51,6 +51,7 @@ pretrained_model/model/epoch100/model.t7
 In order to run the commands below, you need to download the Dataset and pretrained model and store them in their respective repositories
 
 **1. Using the pretrained model**
+
 run the command below:
 - folderName = the name of the parent folder where the model resides (eg. pretrained_model)
 - fromEpoch = select an epoch from which the model should be used for reconstructions (eg. 80)
@@ -63,6 +64,7 @@ sh reconstruct.sh pretrained_model 80 0
 ```
 
 **2. Training the model from scratch**
+
 run the command below:
 - folderName = the name of the folder where the model will reside (eg. sampleModel)
 - GPU = select a GPU to use from 0 to N (where N is the total number of GPUs available minus 1).
