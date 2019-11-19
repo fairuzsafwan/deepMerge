@@ -1,6 +1,18 @@
 # deepMerge
 deepMerge: A model to reconstruct 3D model from depth map
 
+## Requirements
+- [Torch](http://torch.ch/)
+- [nn](https://github.com/torch/nn)
+- [nngraph](https://github.com/torch/nngraph)
+- [cutorch](https://github.com/torch/cutorch)
+- [cunn](https://github.com/torch/cunn)
+- [paths](https://github.com/torch/paths)
+- [image](https://github.com/torch/image)
+- [optim](https://github.com/torch/optim)
+- [gnuplot](https://github.com/torch/gnuplot)
+- [openCV](https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html)
+
 ## Dataset & Pretrained model
 Download the [Dataset and pretrained model](https://www.dropbox.com/sh/vwn649s13cwy4yi/AADGCP_GejZzPVt5FfmM7OT8a?dl=0)
 
