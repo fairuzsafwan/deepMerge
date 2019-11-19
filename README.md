@@ -90,8 +90,7 @@ sh train.sh sampleModel 0
 
 ## Computing IoU
 
-Install the following requirements
-**Requirements**
+Install the following **requirements**
 - [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 - [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
 - [python](https://www.python.org/downloads/)
