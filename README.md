@@ -1,5 +1,5 @@
 # deepMerge
-deepMerge: A model to reconstruct 3D model from depth map
+deepMerge: A model to reconstruct 3D model from depth map by utilizing local and generic features
 
 ## Requirements
 - [Torch](http://torch.ch/)
@@ -88,11 +88,27 @@ sh train.sh sampleModel 0
 ```
 
 
-## Computing IoU
+## Computing IoU (Windows only)
 
-Install the following **requirements**
+**1. Install the following requirements:**
 - [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 - [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
 - [python](https://www.python.org/downloads/)
 - [Anaconda](https://www.anaconda.com/distribution/)
 - [openCV](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.2/opencv-3.4.2-vc14_vc15.exe/download)
+
+**2. Register openCV path in environment variables**
+
+**3. How to run**
+
+run the command below:
+> cd to the "zip-IoU" folder
+- folderName = the input path of the folder where the estimated depth maps & silhouettes reside (eg. C:\Users\safwan\Desktop\model_v1)
+- outputFolder = the output path where the 3D models will be reconstructed (eg. C:\Users\safwan\Desktop\outputModel_v1)
+- experimentName = the name of the experiment folder where the 3D models will be reconstructed (eg. experimentSample)
+
+> sh train.sh folderName outputFolder experimentName
+```
+run-loop_v3.bat C:\Users\safwan\Desktop\model_v1 C:\Users\safwan\Desktop\outputModel_v1 
+```
+
