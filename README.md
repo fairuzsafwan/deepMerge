@@ -65,12 +65,12 @@ In order to run the commands below, you need to download the Dataset and pretrai
 **1. Using the pretrained model**
 
 run the command below:
-- folderName = the name of the parent folder where the model resides (eg. pretrained_model)
+- modelName = the name of the parent folder where the model resides (eg. pretrained_model)
 - fromEpoch = select an epoch from which the model should be used for reconstructions (eg. 80)
 - GPU = select a GPU to use from 0 to N (where N is the total number of GPUs available minus 1).
         set it to 0 if you only have one GPU (eg. 0)
 
-> sh reconstruct.sh folderName fromEpoch GPU
+> sh reconstruct.sh modelName fromEpoch GPU
 ```
 sh reconstruct.sh pretrained_model 80 0
 ```
@@ -78,11 +78,11 @@ sh reconstruct.sh pretrained_model 80 0
 **2. Training the model from scratch**
 
 run the command below:
-- folderName = the name of the folder where the model will reside (eg. sampleModel)
+- modelName = the name of the folder where the model will reside (eg. sampleModel)
 - GPU = select a GPU to use from 0 to N (where N is the total number of GPUs available minus 1).
         set it to 0 if you only have one GPU (eg. 0)
 
-> sh train.sh folderName GPU
+> sh train.sh modelName GPU
 ```
 sh train.sh sampleModel 0
 ```
