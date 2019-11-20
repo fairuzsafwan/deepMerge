@@ -111,7 +111,7 @@ cd Compute_IoU
 **4. cd to Compute_IoU**
 > copy epoch folder where all 57 categories of depth maps and silhouettes are reconstructed into input/ folder
 ```
-cp deepMerge\pretrained_model\experiments\epoch80 C:\Users\safwan\Desktop\Compute_IoU\input\
+cp -r deepMerge\pretrained_model\experiments\epoch80 C:\Users\safwan\Desktop\Compute_IoU\input\
 ```
 
 **5. How to run**
@@ -124,5 +124,5 @@ run the command below:
 compute_IoU.bat experimentSample
 ```
 
->Output: Reconstructed models will reside in output/ folder
+> Output: Reconstructed models will reside in output/ folder
 
