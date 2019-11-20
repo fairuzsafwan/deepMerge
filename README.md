@@ -115,6 +115,7 @@ cp deepMerge\pretrained_model\experiments\epoch80 C:\Users\safwan\Desktop\Comput
 ```
 
 **5. How to run**
+
 run the command below:      
 - experimentName = the name of the experiment folder where the 3D models will be reconstructed (eg. experimentSample)
 
