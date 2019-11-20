@@ -103,16 +103,26 @@ C:\opencv\build\\x64\vc14\bin
 C:\opencv\build\\x64\vc15\bin
 ```
 
-**3. How to run**
+**3. run Command Prompt and cd to Compute_IoU**
+```
+cd Compute_IoU
+```
 
-run the command below:
-> cd to the "zip-IoU" folder
-- inputPath = the input path of the folder where the estimated depth maps & silhouettes reside (eg. C:\Users\safwan\Desktop\model_v1)
-- outputPath = the output path where the 3D models will be reconstructed (eg. C:\Users\safwan\Desktop\outputModel_v1)
+**4. cd to Compute_IoU**
+> copy epoch folder where all 57 categories of depth maps and silhouettes are reconstructed into input/ folder
+```
+cp -r deepMerge\pretrained_model\experiments\epoch80 C:\Users\safwan\Desktop\Compute_IoU\input\
+```
+
+**5. How to run**
+
+run the command below:      
 - experimentName = the name of the experiment folder where the 3D models will be reconstructed (eg. experimentSample)
 
-> run-loop_v3.bat inputPath outputPath experimentName
+> compute_IoU.bat experimentName
 ```
-run-loop_v3.bat C:\Users\safwan\Desktop\model_v1 C:\Users\safwan\Desktop\outputModel_v1 experimentSample
+compute_IoU.bat experimentSample
 ```
+
+> Output: Reconstructed models will reside in output/ folder
 
